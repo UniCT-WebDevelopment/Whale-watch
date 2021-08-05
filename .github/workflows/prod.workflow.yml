@@ -2,13 +2,13 @@ name: Production
 
 on:
   push:
-    branches: [master]
+    branches: [web]
     paths-ignore:
       - ".gitignore"
       - "README.md"
       - "docs/**"
   pull_request:
-    branches: [master]
+    branches: [web]
     paths-ignore:
       - ".gitignore"
       - "README.md"
